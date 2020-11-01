@@ -1,0 +1,229 @@
+/*Background for buttons - #2196F3*/
+/*Color for titles - #212121*/
+/*Color for text - #757575*/
+/*Background for hero & footer - #2F303A*/
+/*Background for portfolio.html filter - #F5F4FA*/
+
+/*NAVIGATION START*/
+.title-web{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+}
+
+.title-studio{
+    font-family: Oleo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.header-link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    text-decoration: none;
+}
+
+.header-link:hover, .header-link:focus, .header-link:active{
+    color: #2196F3;
+}
+/*NAVIGATION END*/
+
+/*CONTACTS START*/
+.emeil-mobile{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+    text-decoration: none;
+    line-height: 0;
+}
+
+.emeil-mobile:hover, .emeil-mobile:focus, .emeil-mobile:active{
+    color: #2196F3;
+}
+/*CONTACTS END*/
+
+/*HERO BLOCK START*/
+.hero-conteiner{
+    max-width: 1600px;
+    padding: 280px 450px 200px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #2F303A;
+}
+
+.hero-conteiner_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.hero-conteiner_button{
+    padding: 10px 32px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #2196F3;
+    border: 0;
+}
+
+.hero-conteiner_button:hover, .hero-conteiner_button:focus, .hero-conteiner_button:active{
+    background: #0569bb;
+}
+/*HERO BLOCK END*/
+
+/*BENEFITS START*/
+.benefits-section_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.benefits-section_info{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+/*BENEFITS END*/
+
+/*PORTFOLIO START*/
+.portfolio-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+}
+/*PORTFOLIO END*/
+
+/*TEAM START*/
+.team-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #212121;
+}
+
+.team-list_name{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #212121;
+}
+
+.team-list_pos{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+/*TEAM END*/
+
+/*FOOTER START*/
+
+.footer{
+    height: 300px;
+    max-width: 1600px;
+    background: #2F303A;
+}
+
+.address{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.contacts-footer{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757575;
+}
+
+.title-studio_footer{
+    color: #FFFFFF;
+}
+
+/*FOOTER END*/
+
+/*PORTFOLIO.HTML START*/
+.filters-list{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #212121;
+}
+
+.filters-list_item{
+    max-width: 145px;
+    max-height: 38px;
+    padding: 6px 22px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.filters-list_item:hover, .filters-list_item:focus, .filters-list_item:active{
+    background: #2196F3;
+    border-radius: 4px;
+}
+
+.projects-list_title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    color: #212121;
+}
+
+.projects-list_info{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #757575;
+}
+
+/*PORTFOLIO.HTML END*/
