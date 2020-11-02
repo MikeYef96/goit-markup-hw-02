@@ -12,33 +12,30 @@
 </head>
 
 <body>
-    <!--NAVIGATION-->
-    <nav class="navigation-container">
         <!--HEADER-->
      <header class="header">
             <p>
                 <span class="title-web">Web</span><span class="title-studio">Studio</span>
             </p>
-     </header>
+     <!--NAVIGATION-->
+     <nav class="navigation-container">
+          <ul class="header-list">
+           <li><a href="index.html" class="header-link">Студия</a></li>
+           <li><a href="portfolio.html" class="header-link">Портфолио</a></li>
+           <li><a href="" class="header-link">Контакты</a></li>
+         </ul>
+     </nav>
 
-     <ul class="header-list">
-        <li><a href="index.html" class="header-link">Студия</a></li>
-        <li><a href="portfolio.html" class="header-link">Портфолио</a></li>
-        <li><a href="" class="header-link">Контакты</a></li>
-     </ul>
-   </nav>
-
-    <!--CONTACTS-->
-    <div class="contacts">
-        <a href="mailto:info@devstudio.com" class="emeil-mobile">info@devstudio.com</a>
-        <div>
-            <a href="" class="emeil-mobile">+38 096 111 11 11</a>
-        </div>
-    </div>
+     <!--CONTACTS-->
+      <ul class="contacts-list">
+         <li><a href="mailto:info@devstudio.com" class="emeil-mobile">info@devstudio.com</a></li>
+         <li><a href="tel:+380961111111" class="emeil-mobile">+38 096 111 11 11</a></li>
+      </ul>
+    </header>
 
     <main>
         <!--FILTERS-->
-        <div class="filters">
+        <section class="filters">
             <ul class="filters-list">
                 <li class="filters-list_item filter-item_all">Все</li>
                 <li class="filters-list_item filter-item_web">Веб-сайты</li>
@@ -46,10 +43,10 @@
                 <li class="filters-list_item filter-item_design">Дизайн</li>
                 <li class="filters-list_item filter-item_marketing">Маркетинг</li>
             </ul>
-        </div>
+        </section>
 
         <!--PROJECTS-->
-        <div class="projects">
+        <section class="projects">
             <ul class="projects-list">
             <li>
                 <a href="#!"><img src="./img/images-portfolio/project-1.png" width="370" alt="Технокряк"></a>
@@ -115,7 +112,7 @@
                     </p>
             </li>
             </ul>
-        </div>
+        </section>
     </main>
     
     <!--FOOTER-->
@@ -132,12 +129,14 @@
                  </p>
             </div>
             <!--CONTACTS-->
-            <div class="contacts">
-             <a href="mailto:info@devstudio.com" class="emeil-mobile contacts-footer">info@devstudio.com</a>
-             <div>
-                 <a href="+380961111111" class="emeil-mobile contacts-footer">+38 096 111 11 11</a>
-             </div>
-           </div>
+            <ul class="contacts">
+                <li>
+                    <a href="mailto:info@devstudio.com" class="emeil-mobile contacts-footer">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a href="+380961111111" class="emeil-mobile contacts-footer">+38 096 111 11 11</a>
+                </li>
+            </ul> 
         </address>
     </footer>
 </body>
