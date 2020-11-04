@@ -4,7 +4,12 @@
 /*Background for hero & footer - #2F303A*/
 /*Background for portfolio.html filter - #F5F4FA*/
 
+ul{
+    list-style: none;
+}
+
 /*NAVIGATION START*/
+
 .title-web{
     font-family: Raleway;
     font-style: normal;
@@ -31,6 +36,7 @@
     line-height: 16px;
     color: #212121;
     text-decoration: none;
+
 }
 
 .header-link:hover, .header-link:focus, .header-link:active{
@@ -197,7 +203,7 @@
 }
 
 .filters-list_item{
-    max-width: 145px;
+    width: fit-content;
     max-height: 38px;
     padding: 6px 22px;
     background: #F5F4FA;
