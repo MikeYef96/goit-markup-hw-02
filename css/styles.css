@@ -8,7 +8,11 @@ ul{
     list-style: none;
 }
 
-/*NAVIGATION START*/
+/*HEADER START*/
+
+.title-webstudio{
+    text-decoration: none;
+}
 
 .title-web{
     font-family: Raleway;
@@ -20,7 +24,7 @@ ul{
 }
 
 .title-studio{
-    font-family: Oleo;
+    font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -36,7 +40,14 @@ ul{
     line-height: 16px;
     color: #212121;
     text-decoration: none;
+}
 
+.studio-link{
+    color: #2196F3;
+}
+
+.portfolio-link{
+    color: #2196F3;
 }
 
 .header-link:hover, .header-link:focus, .header-link:active{
@@ -192,15 +203,6 @@ ul{
 /*FOOTER END*/
 
 /*PORTFOLIO.HTML START*/
-.filters-list{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    text-align: left;
-    color: #212121;
-}
 
 .filters-list_item{
     width: fit-content;
@@ -208,10 +210,18 @@ ul{
     padding: 6px 22px;
     background: #F5F4FA;
     border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #212121;
 }
 
 .filters-list_item:hover, .filters-list_item:focus, .filters-list_item:active{
     background: #2196F3;
+    color: #FFFFFF;
     border-radius: 4px;
 }
 
