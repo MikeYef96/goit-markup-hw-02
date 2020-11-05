@@ -13,11 +13,12 @@ ul{
 /*HEADER START*/
 
 .title-webstudio{
+    font-family: Raleway, sans-serif;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
 
 .title-web{
-    font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -26,7 +27,6 @@ ul{
 }
 
 .title-studio{
-    font-family: Raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -42,6 +42,7 @@ ul{
     line-height: 16px;
     color: var( --title-color);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 
 .studio-link{
@@ -67,6 +68,7 @@ ul{
     color: var( --text-color);
     text-decoration: none;
     line-height: 0;
+    letter-spacing: 0.02em;
 }
 
 .emeil-mobile:hover, .emeil-mobile:focus, .emeil-mobile:active{
@@ -74,17 +76,25 @@ ul{
 }
 /*CONTACTS END*/
 
+button{
+    font-family: inherit;
+}
+
 /*HERO BLOCK START*/
+
+body{
+    font-family: Roboto, sans-serif;
+}
 .hero-conteiner{
     max-width: 1600px;
     padding: 280px 450px 200px;
     text-align: center;
     text-transform: uppercase;
     background: var( --background-hero-footer);
+    letter-spacing: 0.06em;
 }
 
 .hero-conteiner_title{
-    font-family: Roboto;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -94,7 +104,6 @@ ul{
 
 .hero-conteiner_button{
     padding: 10px 32px;
-    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
@@ -108,8 +117,11 @@ ul{
 /*HERO BLOCK END*/
 
 /*BENEFITS START*/
+.benefits-section{
+    letter-spacing: 0.03em;
+}
+
 .benefits-section_title{
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -129,8 +141,11 @@ ul{
 /*BENEFITS END*/
 
 /*PORTFOLIO START*/
+.portfolio{
+    letter-spacing: 0.03em;
+}
+
 .portfolio-title{
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -141,8 +156,11 @@ ul{
 /*PORTFOLIO END*/
 
 /*TEAM START*/
+.team{
+    letter-spacing: 0.03em;
+}
+
 .team-title{
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -152,7 +170,6 @@ ul{
 }
 
 .team-list_name{
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -161,7 +178,6 @@ ul{
 }
 
 .team-list_pos{
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -176,10 +192,10 @@ ul{
     height: 300px;
     max-width: 1600px;
     background: var( --background-hero-footer);
+    letter-spacing: 0.03em;
 }
 
 .address{
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -190,7 +206,6 @@ ul{
 }
 
 .contacts-footer{
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -212,13 +227,13 @@ ul{
     padding: 6px 22px;
     background: var( --bg-portfolio-filter);
     border-radius: 4px;
-    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     color: var( --title-color);
+    letter-spacing: 0.03em;
 }
 
 .filters-list_item:hover, .filters-list_item:focus, .filters-list_item:active{
@@ -228,21 +243,21 @@ ul{
 }
 
 .projects-list_title{
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 36px;
     color: var( --title-color);
+    letter-spacing: 0.06em;
 }
 
 .projects-list_info{
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
     color: var( --text-color);
+    letter-spacing: 0.03em;
 }
 
 /*PORTFOLIO.HTML END*/
