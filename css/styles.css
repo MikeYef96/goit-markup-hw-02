@@ -1,8 +1,10 @@
-/*Background for buttons - #2196F3*/
-/*Color for titles - #212121*/
-/*Color for text - #757575*/
-/*Background for hero & footer - #2F303A*/
-/*Background for portfolio.html filter - #F5F4FA*/
+:root{
+    --background-button: #2196F3;
+    --title-color: #212121;
+    --text-color: #757575;
+    --background-hero-footer: #2F303A;
+    --bg-portfolio-filter: #F5F4FA;
+}
 
 ul{
     list-style: none;
@@ -20,7 +22,7 @@ ul{
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
+    color: var( --background-button);
 }
 
 .title-studio{
@@ -38,20 +40,20 @@ ul{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #212121;
+    color: var( --title-color);
     text-decoration: none;
 }
 
 .studio-link{
-    color: #2196F3;
+    color: var( --background-button);
 }
 
 .portfolio-link{
-    color: #2196F3;
+    color: var( --background-button);
 }
 
 .header-link:hover, .header-link:focus, .header-link:active{
-    color: #2196F3;
+    color: var( --background-button);
 }
 /*NAVIGATION END*/
 
@@ -62,13 +64,13 @@ ul{
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #757575;
+    color: var( --text-color);
     text-decoration: none;
     line-height: 0;
 }
 
 .emeil-mobile:hover, .emeil-mobile:focus, .emeil-mobile:active{
-    color: #2196F3;
+    color: var( --background-button);
 }
 /*CONTACTS END*/
 
@@ -78,7 +80,7 @@ ul{
     padding: 280px 450px 200px;
     text-align: center;
     text-transform: uppercase;
-    background: #2F303A;
+    background: var( --background-hero-footer);
 }
 
 .hero-conteiner_title{
@@ -96,7 +98,7 @@ ul{
     font-weight: 700;
     font-size: 16px;
     color: #FFFFFF;
-    background: #2196F3;
+    background: var( --background-button);
     border: 0;
 }
 
@@ -113,7 +115,7 @@ ul{
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-    color: #212121;
+    color: var( --title-color);
 }
 
 .benefits-section_info{
@@ -122,7 +124,7 @@ ul{
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #757575;
+    color: var( --text-color);
 }
 /*BENEFITS END*/
 
@@ -134,7 +136,7 @@ ul{
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    color: #212121;
+    color: var( --title-color);
 }
 /*PORTFOLIO END*/
 
@@ -146,7 +148,7 @@ ul{
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    color: #212121;
+    color: var( --title-color);
 }
 
 .team-list_name{
@@ -155,7 +157,7 @@ ul{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    color: #212121;
+    color: var( --title-color);
 }
 
 .team-list_pos{
@@ -164,7 +166,7 @@ ul{
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    color: #757575;
+    color: var( --text-color);
 }
 /*TEAM END*/
 
@@ -173,7 +175,7 @@ ul{
 .footer{
     height: 300px;
     max-width: 1600px;
-    background: #2F303A;
+    background: var( --background-hero-footer);
 }
 
 .address{
@@ -193,7 +195,7 @@ ul{
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #757575;
+    color: var( --text-color);
 }
 
 .title-studio_footer{
@@ -208,7 +210,7 @@ ul{
     width: fit-content;
     max-height: 38px;
     padding: 6px 22px;
-    background: #F5F4FA;
+    background: var( --bg-portfolio-filter);
     border-radius: 4px;
     font-family: Roboto;
     font-style: normal;
@@ -216,11 +218,11 @@ ul{
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    color: #212121;
+    color: var( --title-color);
 }
 
 .filters-list_item:hover, .filters-list_item:focus, .filters-list_item:active{
-    background: #2196F3;
+    background: var( --background-button);
     color: #FFFFFF;
     border-radius: 4px;
 }
@@ -231,7 +233,7 @@ ul{
     font-weight: bold;
     font-size: 18px;
     line-height: 36px;
-    color: #212121;
+    color: var( --title-color);
 }
 
 .projects-list_info{
@@ -240,7 +242,7 @@ ul{
     font-weight: normal;
     font-size: 16px;
     line-height: 30px;
-    color: #757575;
+    color: var( --text-color);
 }
 
 /*PORTFOLIO.HTML END*/
