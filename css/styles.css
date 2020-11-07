@@ -22,7 +22,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: var( --background-button);
 }
 
@@ -30,7 +30,7 @@ ul{
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     color: #000000;
 }
 
@@ -39,7 +39,7 @@ ul{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     color: var( --title-color);
     text-decoration: none;
     letter-spacing: 0.02em;
@@ -64,7 +64,7 @@ ul{
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     color: var( --text-color);
     text-decoration: none;
     line-height: 0;
@@ -98,7 +98,7 @@ body{
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     color: #FFFFFF;
 }
 
@@ -125,7 +125,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     text-transform: uppercase;
     color: var( --title-color);
 }
@@ -135,7 +135,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     color: var( --text-color);
 }
 /*BENEFITS END*/
@@ -149,7 +149,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     color: var( --title-color);
 }
@@ -164,7 +164,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     text-align: center;
     color: var( --title-color);
 }
@@ -173,7 +173,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     color: var( --title-color);
 }
 
@@ -181,7 +181,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1.18;
     color: var( --text-color);
 }
 /*TEAM END*/
@@ -199,7 +199,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     text-decoration: none;
     color: #FFFFFF;
     padding-left: 20px;
@@ -209,7 +209,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     color: var( --text-color);
 }
 
@@ -230,7 +230,7 @@ body{
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     text-align: center;
     color: var( --title-color);
     letter-spacing: 0.03em;
@@ -246,7 +246,7 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     color: var( --title-color);
     letter-spacing: 0.06em;
 }
@@ -255,7 +255,7 @@ body{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
     color: var( --text-color);
     letter-spacing: 0.03em;
 }
